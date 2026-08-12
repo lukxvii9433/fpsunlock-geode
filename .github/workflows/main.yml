@@ -9,7 +9,10 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Build
+      - name: Setup Geode SDK
         uses: geode-sdk/build-geode-mod@main
+        with:
+          sdk: v5.9.0
