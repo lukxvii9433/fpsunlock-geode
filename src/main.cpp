@@ -10,7 +10,8 @@ class $modify(FPSUnlockAppDelegate, AppDelegate) {
 
         CCDirector::sharedDirector()->setAnimationInterval(1.0 / 120.0);
 
-        log::info("FPS Unlock enabled");
+        log::info("FPS Unlock: 120 FPS target enabled");
+
         return true;
     }
 };
