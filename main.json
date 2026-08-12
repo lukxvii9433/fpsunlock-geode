@@ -1,0 +1,12 @@
+{
+  "geode": "5.9.0",
+  "version": "1.0.0",
+  "id": "lukxvii9433.fpsunlock",
+  "name": "FPS Unlock",
+  "developer": "lukxvii9433",
+  "description": "Unlocks Geometry Dash FPS.",
+  "gd": {
+    "ios": "2.2081",
+    "android": "2.2081"
+  }
+}
