@@ -1,1 +1,15 @@
+name: Build Geode Mod
 
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        uses: geode-sdk/build-geode-mod@main
